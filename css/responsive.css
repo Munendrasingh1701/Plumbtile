@@ -1,0 +1,707 @@
+@media screen and (max-width:1399px) {
+
+
+    .banner-left {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    .sec-right {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    #products {
+        padding: 80px 0;
+    }
+
+    .plum-text h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:1299px) {
+    .icon {
+        padding-right: 60px;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .main .menu>ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 0;
+        z-index: 1111;
+        background-color: #1299C5;
+    }
+
+    .menu>ul>li>a {
+        padding: 10px 30px;
+        display: block;
+    }
+
+    .menu>ul>li {
+        font-size: 24px;
+        background-color: transparent;
+    }
+
+    .menu>ul>li.show {
+        background-color: #94e4ff;
+    }
+
+    .menu>ul>li.show a {
+        color: rgb(0, 0, 0);
+    }
+
+    .main.show .menu>ul {
+        display: block;
+    }
+
+    .menu>ul>li:hover .drop-down {
+        display: none;
+    }
+
+    .menu ul li.show .drop-down {
+        width: 100%;
+        position: relative;
+        background-color: white;
+        display: block;
+    }
+
+    .menu ul::before {
+        display: none;
+    }
+
+    /* .menu ul li.show .drop-down{
+    display: block;
+    position: relative;
+}  */
+
+    .menu ul li:hover .drop-down li:hover {
+        background-color: black;
+    }
+
+    .main.show .line2 {
+        display: none;
+    }
+
+    .main.show .line1 {
+        transform: rotate(133deg);
+        position: relative;
+        top: 11px;
+    }
+
+    .main.show .line3 {
+        transform: rotate(50deg);
+        position: relative;
+        top: 3px;
+    }
+
+
+
+    .slide-item {
+        padding: 0;
+        width: 150px !important;
+    }
+
+    .rigister-main {
+        height: auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .pro1-ul a {
+        width: auto;
+    }
+
+    .pro1-ul a.uniqe {
+        width: auto;
+    }
+
+    .plum-text h2 {
+        font-size: 32px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width:1199px) {
+
+    .col-cat-1 {
+        width: 100%;
+    }
+
+    .col-cat-2 {
+        width: 50%;
+    }
+
+    .col-cat-3 {
+        width: 50%;
+    }
+
+    .sec-right {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .sec-right img {
+        bottom: 30px;
+    }
+
+    .register-2 h2 {
+        font-size: 28px;
+        max-width: 500px;
+    }
+
+    .plum-main {
+        flex-wrap: wrap;
+        row-gap: 30px;
+
+    }
+
+    .plum-text {
+        width: 100%;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .plum-box {
+        width: calc(50% - 5px);
+    }
+
+    .plum-box p {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    #rating {
+        padding: 50px;
+    }
+
+    .blog-2text h2 {
+        font-size: 24px;
+        max-width: 380px;
+        padding-right: 15px;
+    }
+
+    .blog-2text {
+        top: 50%;
+        row-gap: 15px;
+        transform: translateY(-50%);
+    }
+
+    .blog-2 button a {
+        width: 132px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .footer-1 img {
+        width: 200px;
+        height: 80px;
+    }
+
+    .footer-main {
+        padding-top: 50px;
+    }
+
+    #register {
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .bar {
+        top: 30px;
+    }
+
+    .gmail input {
+        width: auto;
+    }
+
+    .banner-left h1 {
+        font-size: 30px;
+    }
+
+    .banner-left {
+        padding: 30px 0;
+        row-gap: 10px;
+    }
+
+    .banner-left button a {
+        padding: 10px 20px;
+    }
+
+    .cateogry h2 {
+        font-size: 30px;
+    }
+
+    #section-1 {
+        padding: 30px 0;
+    }
+
+    .cateogry {
+        padding-bottom: 30px;
+    }
+
+    .sec-right h2 {
+        font-size: 30px;
+    }
+
+    .sec-right {
+        padding: 10px 0;
+    }
+
+    .sec-right img {
+        display: none;
+    }
+
+    .sec-right button a {
+        padding: 10px 20px;
+    }
+
+    #products {
+        padding: 30px 0;
+    }
+
+    .product {
+        padding: 0 15px 30px 15px;
+    }
+
+    .product h2 {
+        font-size: 30px;
+    }
+
+    .product button a {
+        padding: 10px 20px;
+    }
+
+    .pro1-text h3 {
+        font-size: 21px;
+    }
+
+    .register-2 {
+        max-width: 65%;
+        margin: auto;
+    }
+
+    .register-2 h2 {
+        font-size: 24px;
+    }
+
+    .register-button button {
+        padding-right: 30px;
+    }
+
+    .register-2 p {
+        font-size: 18px;
+    }
+
+    .register-button button a {
+        padding: 10px 20px;
+    }
+
+
+
+    .brand h2 {
+        font-size: 30px;
+    }
+
+    #brand {
+        padding-bottom: 60px;
+    }
+
+    .brand-text {
+        margin-top: 40px;
+    }
+
+    .brand-text button a {
+        padding: 10px 20px;
+    }
+
+    .cat-button button a {
+        padding: 10px 20px;
+    }
+
+    #cateogry {
+        padding-bottom: 60px;
+    }
+
+    #plumtile {
+        padding: 35px 0;
+    }
+
+    .plum-text button a {
+        padding: 10px 20px;
+    }
+
+    .blog h2 {
+        font-size: 30px;
+        max-width: 50%;
+    }
+
+    .blog button a {
+        width: 189px;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    #blog {
+        padding-bottom: 50px;
+    }
+
+    #product2 {
+        padding: 40px 0;
+    }
+
+    .col-footer-2,
+    .col-footer-3 {
+        width: 50%;
+    }
+
+    .row.active {
+        row-gap: 30px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .row.reverse {
+        position: relative;
+    }
+
+    .bar {
+        top: 38px;
+    }
+
+    #header {
+        padding: 30px 0;
+    }
+
+    .row.main {
+        height: auto;
+    }
+
+    .gmail {
+        display: none;
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+
+
+    }
+
+    #header.show .gmail {
+        display: flex;
+        left: 0;
+        padding: 0 20px 10px;
+    }
+
+    .gmail input {
+        width: 100%;
+    }
+
+    .search a {
+        display: flex;
+        top: 51px;
+        padding: 0 30px;
+        right: 153px;
+        position: absolute;
+    }
+
+    #header.show#header {
+        height: 160px;
+    }
+
+    .col-banner-right {
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .col-banner-left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .pic img {
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .sec-right h2 {
+        font-size: 18px;
+    }
+
+    .sec-right {
+        row-gap: 10px;
+    }
+
+    .register-2 h2 {
+        font-size: 18px;
+    }
+
+    .register-2 p {
+        font-size: 16px;
+    }
+
+    .col-banner-left {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        max-width: 80%;
+        z-index: 2;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .banner-left h1,
+    .banner-left p {
+        color: white;
+    }
+
+    .banner-right::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 50%;
+        z-index: 1;
+        content: "";
+    }
+
+    #banner {
+        padding-top: 14px;
+    }
+
+
+    .rate1 {
+        padding: 10px;
+        height: auto;
+    }
+
+    .rate1 p {
+        line-height: 24px;
+    }
+
+    .rate-text h5 {
+        font-size: 16px;
+    }
+
+    .blog h2 {
+        font-size: 24px;
+    }
+
+    .col-blog-2 {
+        width: 100%;
+    }
+
+
+    .footer-2 ul li a {
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width:575px) {
+
+    .search a {
+
+        padding: 0 30px 0 0;
+        position: static;
+        transform: initial;
+        display: flex;
+        align-items: center;
+    }
+
+    .banner-left h1 {
+        font-size: 20px;
+    }
+
+    .banner-left p {
+        font-size: 16px;
+    }
+
+    .cateogry h2 {
+        font-size: 24px;
+    }
+
+    .col-sec-2 {
+        padding: 0;
+        width: 100%;
+
+    }
+
+    #section-2 {
+        padding: 40px 40px;
+    }
+
+    .col-sec-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sec-right {
+        max-width: 100%;
+    }
+
+    .register img {
+        height: 250px;
+    }
+
+    .rigister-main {
+        flex-direction: column;
+    }
+
+    .register-2 h2 {
+        max-width: 100%;
+    }
+
+    .register-2 {
+        max-width: 100%;
+        padding: 0 15px;
+        text-align: center;
+
+    }
+
+    .register-button button {
+        padding-top: 10px;
+        text-align: right;
+    }
+
+    .product {
+        padding: 0 15px 30px 15px;
+    }
+
+    .cateogry h2 {
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+
+    .cat-1 h3 {
+        font-size: 18px;
+    }
+
+    .cat-2 h3 {
+        font-size: 18px;
+    }
+
+    .cateogry {
+        padding: 0;
+    }
+
+    #cateogry {
+        padding-bottom: 30px;
+    }
+
+    .plum-box {
+        width: 100%;
+    }
+
+    .design1 {
+        width: 25%;
+    }
+
+    .design-2 {
+        width: 50%;
+    }
+
+    .design-5 {
+        width: 40%;
+    }
+
+    .design-7 {
+        width: 30%;
+    }
+
+    .design-10 {
+        width: 23%;
+    }
+
+    .design-11 {
+        width: 25%;
+    }
+
+    #rating {
+        padding: 20px 0;
+    }
+
+    .rate1 {
+        width: 100%;
+    }
+
+    .col-rate1 {
+        width: 100%;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blog h2 {
+        padding: 0 15px;
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    .blog button a {
+        width: 135px;
+        height: auto;
+        font-size: 16px;
+        padding: 10px 15px;
+    }
+
+    .blog-2text h2 {
+        font-size: 18px;
+    }
+
+    .blog-2 button a {
+        padding: 15px;
+        max-width: fit-content;
+
+    }
+
+    .product h2 {
+        font-size: 24px;
+    }
+
+    #product2 {
+        padding: 20px 0;
+    }
+
+    .product-title h2 {
+        font-size: 24px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .col-footer-2,
+    .col-footer-3 {
+        width: 100%;
+    }
+
+    .brand-text {
+        margin-top: 30px;
+    }
+    .shadow{
+        padding: 30px;
+        box-shadow: 0 0 5px #c6c3c3;
+    }
+}
